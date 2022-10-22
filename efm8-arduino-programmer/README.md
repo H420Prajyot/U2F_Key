@@ -12,8 +12,9 @@ C2 is a 2-pin protocol.  Any arduino should work to implement the protocol via G
 Check the [firmware file](https://github.com/conorpp/efm8-arduino-programmer/blob/master/prog/prog.ino#L11) and change the pins to map to your device if needed.
 
 ### Arduino Uno support
-To use it for Arduino Uno you can just swap from E to D. Just replace all `PORTE`, `DDRE` and `PINE` with `PORTD`, `DDRD` and `PIND`. You can read about Port Registers here: https://www.arduino.cc/en/Reference/PortManipulation
-#NOTE: In this repository we have already swap from E to D to use Arduino Uno
+To use it for Arduino Uno you can just swap from E to D. Just replace all `PORTE`, `DDRE` and `PINE` with `PORTD`, `DDRD` and `PIND`. You can read about Port Registers here: https://www.arduino.cc/en/Reference/PortManipulation.
+
+##NOTE: In this repository we have already swap from E to D to use Arduino Uno.
 
 ### Write firmware to Arduino
 Program the firmware to the arduino and connect C2D, C2CK, and GND to your target device.
