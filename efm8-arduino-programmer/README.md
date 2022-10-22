@@ -56,7 +56,7 @@ This will connect to the server and tell it to download specified firmware via s
 - If you get python errors make sure you're not running python3
 - Some modules need sudo on some systems
 
--The CRC is calculated on Arduino after receiving a flash block from PC. It doesn't write to the flash after it sees the CRC failed. You could insert       prints on the arduino to see what is wrong with the data. You could also try reducing the baud rate.
+- The CRC is calculated on Arduino after receiving a flash block from PC. It doesn't write to the flash after it sees the CRC failed. You could insert     prints on the arduino to see what is wrong with the data. You could also try reducing the baud rate.
   https://github.com/H420Prajyot/U2F_Key/blob/main/efm8-arduino-programmer/prog/prog.ino#L249
   https://github.com/H420Prajyot/U2F_Key/blob/main/efm8-arduino-programmer/prog_server.py#L13
 
