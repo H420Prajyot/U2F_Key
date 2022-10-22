@@ -8,11 +8,13 @@
 // Flashes EFM8 at about 10kB/s
 // Baud rate: 1000000
 
-// Digital pin 2 on Mega
+// If you want to use ARDUINO MEGA then you can swap D to E. Just replace all PORTD , DDRD and PIND with PORTE , DDRE and PINE respectively.
+
+// Digital pin 2 on Uno
 #define C2D_PORT  PORTD
 #define C2D_PIN   4
 
-// Digital pin 3 on Mega
+// Digital pin 3 on Uno
 #define C2CK_PORT   PORTD
 #define C2CK_PIN    5
 
