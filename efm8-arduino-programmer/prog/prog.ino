@@ -6,7 +6,7 @@
 
 // GPIO is manipulated through PORT mappings for better speed.
 // Flashes EFM8 at about 10kB/s
-// Baud rate: 1000000
+// Baud rate: 1000000 (you will find Baud rate in line  : 249)
 
 // If you want to use ARDUINO MEGA then you can swap D to E. Just replace all PORTD , DDRD and PIND with PORTE , DDRE and PINE respectively.
 
