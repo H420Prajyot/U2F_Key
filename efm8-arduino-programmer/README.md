@@ -14,7 +14,7 @@ Check the [firmware file](https://github.com/conorpp/efm8-arduino-programmer/blo
 ### Arduino Uno support
 To use it for Arduino Uno you can just swap from E to D. Just replace all `PORTE`, `DDRE` and `PINE` with `PORTD`, `DDRD` and `PIND`. You can read about Port Registers here: https://www.arduino.cc/en/Reference/PortManipulation.
 
-##NOTE: In this repository we have already swap from E to D to use Arduino Uno.
+# NOTE: In this repository we have already swap from E to D to use Arduino Uno.
 
 ### Write firmware to Arduino
 Program the firmware to the arduino and connect C2D, C2CK, and GND to your target device.
