@@ -60,4 +60,4 @@ This will connect to the server and tell it to download specified firmware via s
   https://github.com/H420Prajyot/U2F_Key/blob/main/efm8-arduino-programmer/prog/prog.ino#L249
   https://github.com/H420Prajyot/U2F_Key/blob/main/efm8-arduino-programmer/prog_server.py#L13
 
-- If you are getting data errors, reduce baud rate: https://github.com/conorpp/efm8-arduino-programmer/issues/5
+- If you are getting data errors, reduce baud rate: https://github.com/conorpp/efm8-arduino-programmer/issues/5.
