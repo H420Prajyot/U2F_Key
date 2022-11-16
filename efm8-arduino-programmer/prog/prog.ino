@@ -2,6 +2,7 @@
  * Based on https://gist.github.com/racerxdl/c9a592808acdd9cd178e6e97c83f8baf
  * which was based on: https://github.com/jaromir-sukuba/efm8prog/
  Use his SW to program EFM8 using arduino.
+ /
 **/
 
 // GPIO is manipulated through PORT mappings for better speed.
